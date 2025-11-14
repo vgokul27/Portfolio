@@ -68,7 +68,7 @@ const Navbar = () => {
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                whileHover={{ scale: 1.1, color: "#10b981" }}
+                whileHover={{ scale: 1.1, color: "#095b9e" }}
                 className="text-gray-300 hover:text-blue-500 transition-colors duration-300 font-medium"
               >
                 {link.name}
@@ -108,7 +108,28 @@ const Navbar = () => {
               exit="closed"
               className="md:hidden fixed top-0 right-0 h-full w-64 bg-gray-800 shadow-2xl z-50"
             >
-              <div className="flex flex-col p-8 space-y-6 mt-16">
+              {/* Sidebar Header */}
+              <div className="flex justify-between items-center p-6 border-b border-gray-700">
+                <motion.div
+                  initial={{ opacity: 0, x: -20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.2 }}
+                  className="text-2xl font-bold text-blue-500"
+                >
+                  GOKUL
+                </motion.div>
+                <motion.button
+                  onClick={toggleMenu}
+                  whileHover={{ scale: 1.1, rotate: 90 }}
+                  whileTap={{ scale: 0.9 }}
+                  className="text-blue-500 text-2xl focus:outline-none"
+                >
+                  <FaTimes />
+                </motion.button>
+              </div>
+
+              {/* Sidebar Links */}
+              <div className="flex flex-col p-8 space-y-6">
                 {navLinks.map((link, index) => (
                   <motion.a
                     key={link.name}

@@ -136,7 +136,7 @@ const Hero = () => {
               <div className="relative bg-gray-800 rounded-2xl p-2 shadow-2xl">
                 <div className="w-72 h-72 md:w-96 md:h-96 rounded-xl overflow-hidden border-4 border-blue-500">
                   <img
-                    src="/profile.jpg"
+                    src="Gokul_Photo.jpg"
                     alt="Gokulraj V"
                     className="w-full h-full object-cover"
                   />
