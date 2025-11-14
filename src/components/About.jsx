@@ -75,9 +75,9 @@ const About = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            About <span className="text-green-500">Me</span>
+            About <span className="text-blue-500">Me</span>
           </h2>
-          <div className="w-24 h-1 bg-green-500 mx-auto"></div>
+          <div className="w-24 h-1 bg-blue-500 mx-auto"></div>
         </motion.div>
 
         {/* Centered Content */}
@@ -133,7 +133,7 @@ const About = () => {
               download
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-8 py-3 bg-green-500 text-white rounded-lg font-medium hover:bg-green-600 transition-colors duration-300"
+              className="px-8 py-3 bg-blue-500 text-white rounded-lg font-medium hover:bg-blue-600 transition-colors duration-300"
             >
               Download CV
             </motion.a>
@@ -141,7 +141,7 @@ const About = () => {
               href="#contact"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-8 py-3 border-2 border-green-500 text-green-500 rounded-lg font-medium hover:bg-green-500 hover:text-white transition-all duration-300"
+              className="px-8 py-3 border-2 border-blue-500 text-blue-500 rounded-lg font-medium hover:bg-blue-500 hover:text-white transition-all duration-300"
             >
               Contact Me
             </motion.a>
@@ -161,9 +161,9 @@ const About = () => {
               key={index}
               variants={cardVariants}
               whileHover={{ y: -10, scale: 1.05 }}
-              className="bg-gray-900 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-green-500 transition-all duration-300"
+              className="bg-gray-900 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-blue-500 transition-all duration-300"
             >
-              <div className="text-green-500 text-4xl mb-4">{item.icon}</div>
+              <div className="text-blue-500 text-4xl mb-4">{item.icon}</div>
               <h4 className="text-xl font-bold text-white mb-2">
                 {item.title}
               </h4>
