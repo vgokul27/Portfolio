@@ -48,7 +48,7 @@ const Projects = () => {
     {
       title: "Doofie",
       description: "A smart recipe finder",
-      image: "/projects/doofie.jpg",
+      image: "doofie.png",
       techStack: [
         "React.js",
         "Tailwind",
@@ -62,25 +62,9 @@ const Projects = () => {
       github: "https://github.com/yourusername/doofie",
     },
     {
-      title: "Ink Diaries",
-      description: "A personal blog site",
-      image: "/projects/ink-diaries.jpg",
-      techStack: [
-        "React.js",
-        "Tailwind",
-        "Framer Motion",
-        "Node.js",
-        "Express.js",
-        "MongoDB",
-        "Firebase",
-      ],
-      liveDemo: "https://your-demo-link.com",
-      github: "https://github.com/yourusername/ink-diaries",
-    },
-    {
       title: "I Hate PDF",
       description: "File conversion app",
-      image: "/projects/i-hate-pdf.jpg",
+      image: "ihate.png",
       techStack: [
         "React.js",
         "Tailwind",
@@ -93,9 +77,26 @@ const Projects = () => {
       github: "https://github.com/yourusername/i-hate-pdf",
     },
     {
+      title: "Ink Diaries",
+      description: "A personal blog site",
+      image: "ink.png",
+      techStack: [
+        "React.js",
+        "Tailwind",
+        "Framer Motion",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Firebase",
+      ],
+      liveDemo: "https://your-demo-link.com",
+      github: "https://github.com/yourusername/ink-diaries",
+    },
+    
+    {
       title: "CGPA Calculator",
       description: "Simple CGPA calculator",
-      image: "/projects/cgpa-calculator.jpg",
+      image: "cgpa.png",
       techStack: ["React.js", "Tailwind", "Framer Motion"],
       liveDemo: "https://your-demo-link.com",
       github: "https://github.com/yourusername/cgpa-calculator",
